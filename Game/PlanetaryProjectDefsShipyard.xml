@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<PlanetaryProjectList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/PlanetaryProjectDefs.xsd">
+
+	<PlanetaryProject>
+		<InternalName>ProjectShipyardBacking</InternalName>
+		<DisplayName>Shipyard Backing</DisplayName>
+		<ShortDescription>This project sends surplus civilian manufacturing to the military</ShortDescription>
+		<Icon>GC3_Economics_Icon.png</Icon>
+		<ManufacturingPerBonus>1</ManufacturingPerBonus>
+		<Bonus>
+			<EffectType>Military</EffectType>
+			<Target>
+				<TargetType>Colony</TargetType>
+			</Target>
+			<BonusType>Flat</BonusType>
+			<Value>1</Value>
+		</Bonus>
+	</PlanetaryProject>
+
+</PlanetaryProjectList>
